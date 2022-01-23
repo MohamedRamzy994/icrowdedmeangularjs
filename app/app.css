@@ -1,0 +1,103 @@
+.btnlogin {
+  background-color: #bcda5c;
+  border: #bcda5c 1px solid;
+}
+
+#banner {
+  animation-name: banneranimation;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.bglightgreen {
+  background-color: #bcda5c;
+}
+
+.textlightgreen {
+  color: #bcda5c;
+}
+
+.borderlightgreen {
+  border-color: #bcda5c !important;
+}
+
+.nav-link.active {
+  border-bottom-color: #bcda5c !important;
+}
+
+.right-box {
+  background-color: #cccc66;
+  min-height: 40vh;
+}
+
+.left-box {
+  background-color: #e2f8ff;
+  min-height: 40vh;
+}
+
+.blulightebg {
+  background-color: #26a6d1;
+}
+
+.bgnew {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+
+.boxbtninfo {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  color: #fff;
+}
+
+#community {
+  background: url(../imgs/bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 75vh;
+}
+
+.communitybox {
+  background-color: #fff;
+}
+
+@keyframes banneranimation {
+  0% {
+    background: url(../imgs/icrowdme-bannerbackground_02.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 75vh;
+  }
+  25% {
+    background: url(../imgs/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 75vh;
+  }
+  50% {
+    background: url(../imgs/icrowdme-bannerbackground_02.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 75vh;
+  }
+  100% {
+    background: url(../imgs/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 75vh;
+  }
+}
+.card .card-img-top:hover {
+  background: #bcda5c;
+  opacity: 0.4;
+  transition: all 1s;
+}
